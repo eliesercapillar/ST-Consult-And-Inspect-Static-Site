@@ -4,8 +4,8 @@ subtitle: Inspection
 layout: default
 modal-id: 1
 date: 2025-02-01 00:00:01
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: home-3-612x612.jpg
+thumbnail: home-1-612x612.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
