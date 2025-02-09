@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("contactForm");
-    const googleFormsURL = "https://docs.google.com/forms/d/e/1FAIpQLScAIdBzcPpkGF49f9xFK54mS9b3TaE2h_YD40sX5hBGZ2KqLA/formResponse";
+    //const testGoogleFormsURL = "https://docs.google.com/forms/d/e/1FAIpQLScAIdBzcPpkGF49f9xFK54mS9b3TaE2h_YD40sX5hBGZ2KqLA/formResponse";
+    const googleFormsURL = "https://docs.google.com/forms/d/e/1FAIpQLSebjGodexNAKv71DnvvMPumpvqNIVK2K9wFhCVcheu05nCE5g/formResponse"
 
     //ISSUE:
     //    If Google experiences an issue (e.g., their servers are down, the form is deleted, or they change how the API works), 

@@ -20,9 +20,9 @@ people:
   #   - title: stack-overflow
   #     url: #
 
-- name: Samuel Toreno
-  pic: headshot
-  position: Inspector
+- name: Samuel Toreno, P.Eng.
+  #pic: headshot
+  # position: Inspector
   # social:
   #   - title: twitter
   #     url: #
