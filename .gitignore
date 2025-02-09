@@ -1,3 +1,7 @@
+# ---------------------------------------------------------------------------------
+# GitHub's Boilerplate Ruby .gitignore 
+# ---------------------------------------------------------------------------------
+
 *.gem
 *.rbc
 /.config
@@ -54,3 +58,46 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# ---------------------------------------------------------------------------------
+# Jekyll Template - Agency's .gitignore
+# ---------------------------------------------------------------------------------
+
+_site
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
