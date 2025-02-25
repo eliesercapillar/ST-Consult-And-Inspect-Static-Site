@@ -1,3 +1,104 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {{ content }}
+
+/* Hero Images background */
+.background-images {
+    display: flex;
+}
+
+.background-images div {
+    display: block;
+    width: 33.3333333vw;
+    overflow: hidden;
+}
+
+.background-images div img {
+    height: 100%;
+    width: 200%;
+    overflow:hidden;
+}
+
+/* Hero Text */
+.hero {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.hero .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+.hero .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+    
+@media(min-width:768px) {
+    .hero .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    .hero .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: {{ site.data.template.font.secondary }};
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    .hero .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+@media(max-width:480px) {
+    .background-images div {
+        display: block;
+        width: 33.3333333vw;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .hero .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: {{ site.data.template.font.secondary }};
+        font-size: 22px;
+        font-style: italic;
+        line-height: 22px;
+    }
+
+    .hero .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
