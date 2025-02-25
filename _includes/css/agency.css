@@ -246,6 +246,8 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand {
         font-size: 2em;
+        -webkit-text-stroke: 0.5px #333;
+        font-border
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -269,7 +271,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/house-inspection-2.jpg');
+    background-image: url('{{ site.baseurl }}/img/3column.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
