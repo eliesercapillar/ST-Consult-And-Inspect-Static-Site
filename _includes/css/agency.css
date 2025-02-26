@@ -291,15 +291,17 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     line-height: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
 }
 
 @media(min-width:768px) {
@@ -320,8 +322,8 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
+        font-size: 60px;
+        font-weight: 600;
         line-height: 75px;
     }
 }

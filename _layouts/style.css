@@ -102,3 +102,10 @@
         line-height: 75px;
     }
 }
+
+footer .attributions {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    line-height: 40px;
+}
