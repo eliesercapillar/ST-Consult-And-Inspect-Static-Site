@@ -61,6 +61,11 @@ h6 {
     margin: 0 auto;
 }
 
+.bbb {
+    margin: auto;
+    max-width: 24rem;
+}
+
 .bg-light-gray {
     background-color: #f7f7f7;
 }
