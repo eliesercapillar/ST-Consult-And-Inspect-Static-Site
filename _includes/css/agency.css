@@ -272,7 +272,19 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.bbb_logo {
+    position: absolute;
+    top: 6%;
+    left: 3%;
+}
+
+.bbb_logo img {
+    width: 154px;
+    height: 200px;
+}
+
 header {
+    position: relative;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
