@@ -6,63 +6,21 @@ title: ST Inspection And Consulting Inc.
 email: torenosam@gmail.com
 description: "ST Inspection and Consulting Inc. is your trusted partner in expert, reliable, and accurate inspections. Contact us today!"
 
-# Testimonials
-# TODO: Populate with static data.
-testimonials:
-  - name: Michael Rodriguez
-    rating: 5/5
-    description: "ST Inspection provided exceptional home inspection services. Samuel was thorough, professional, and explained everything clearly. Found issues that could have cost us thousands down the road. Highly recommend!"
-    
-  - name: Sarah Johnson
-    rating: 5/5
-    description: "Outstanding electrical transformer inspection services. The team's expertise and attention to detail gave us complete confidence in our facility's safety. Professional report delivered promptly."
-    
-  - name: David Chen
-    rating: 5/5
-    description: "Excellent manufacturing component inspection. ST Inspection's detailed analysis helped us identify quality issues before they became major problems. Great communication throughout the process."
-    
-  - name: Emma Thompson
-    rating: 5/5
-    description: "Samuel and his team conducted a comprehensive home inspection that exceeded our expectations. Very knowledgeable, punctual, and provided valuable insights. Worth every penny!"
-    
-  - name: Robert Martinez
-    rating: 5/5
-    description: "Professional and reliable inspection services. The detailed report helped us make informed decisions about our property purchase. ST Inspection is definitely our go-to for future needs."
-    
-  - name: Lisa Anderson
-    rating: 5/5
-    description: "Impressed with the thoroughness of the electrical inspection. The team identified potential hazards and provided clear recommendations. Excellent service from start to finish."
-    
-  - name: James Wilson
-    rating: 5/5
-    description: "Top-notch manufacturing inspection services. ST Inspection's expertise in component analysis is unmatched. Their recommendations have significantly improved our quality control process."
-    
-  - name: Maria Garcia
-    rating: 5/5
-    description: "Fantastic home inspection experience. Samuel was patient with all our questions and provided a comprehensive report. His professionalism and expertise are outstanding."
-    
-  - name: Thomas Lee
-    rating: 5/5
-    description: "Reliable and thorough transformer inspection services. The team's technical knowledge and safety-first approach impressed our entire facility management team. Highly professional."
-    
-  - name: Jennifer Brown
-    rating: 5/5
-    description: "ST Inspection delivered exceptional results on our manufacturing component analysis. Their detailed findings and recommendations have been invaluable for our quality assurance program."
 
 # Team names, titles and social links
 people:
-  - name:
-    pic: 
-    position:
-    # social:
-    #   - title: twitter
-    #     url: #
-    #   - title: facebook
-    #     url: #
-    #   - title: stack-overflow
-    #     url: #
+- name:
+  pic: 
+  position:
+  # social:
+  #   - title: twitter
+  #     url: #
+  #   - title: facebook
+  #     url: #
+  #   - title: stack-overflow
+  #     url: #
 
-  - name: Samuel Toreno, P.Eng.
+- name: Samuel Toreno, P.Eng.
   #pic: headshot
   # position: Inspector
   # social:
