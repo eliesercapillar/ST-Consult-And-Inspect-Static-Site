@@ -272,7 +272,35 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.bbb_logo {
+    visibility: hidden;
+    position: absolute;
+    top: 6%;
+    left: 3%;
+}
+
+.bbb_logo img {
+    width: 154px;
+    height: 200px;
+}
+
+@media(min-width:768px) {
+    .bbb_logo {
+        visibility: visible;
+        position: absolute;
+        top: 6%;
+        left: 3%;
+    }
+    
+    .bbb_logo img {
+        width: 154px;
+        height: 200px;
+    }
+    
+}
+
 header {
+    position: relative;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
