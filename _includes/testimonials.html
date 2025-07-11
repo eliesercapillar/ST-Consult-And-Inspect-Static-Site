@@ -1,0 +1,84 @@
+<!-- Testimonials -->
+<section id="testimonials" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Testimonials</h2>
+                <h3 class="section-subheading text-muted">Reviews from our happy clients.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="testimonials-carousel">
+                    <div class="testimonials-wrapper">
+                        <div class="testimonials-container" id="testimonials-container">
+                            {% for entry in site.testimonials %}
+                            <div class="testimonial-card">
+                                <div class="testimonial-content">
+                                    <div class="testimonial-stars">
+                                        {% assign rating_num = entry.rating | split: '/' | first | plus: 0 %}
+                                        {% for i in (1..rating_num) %}
+                                        <i class="fa fa-star"></i>
+                                        {% endfor %}
+                                    </div>
+                                    <p class="testimonial-text">"{{ entry.description }}"</p>
+                                    <h4 class="testimonial-name">{{ entry.name }}</h4>
+                                    <span class="testimonial-rating">{{ entry.rating }}</span>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="testimonials-nav">
+                        <button class="testimonials-btn testimonials-prev" id="testimonials-prev">
+                            <i class="fa fa-chevron-left"></i>
+                        </button>
+                        <button class="testimonials-btn testimonials-next" id="testimonials-next">
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('testimonials-container');
+    const prevBtn = document.getElementById('testimonials-prev');
+    const nextBtn = document.getElementById('testimonials-next');
+    const cards = container.querySelectorAll('.testimonial-card');
+    
+    let currentIndex = 0;
+    const cardsPerView = 3;
+    const totalCards = cards.length;
+    const maxIndex = Math.ceil(totalCards / cardsPerView) - 1;
+    
+    function updateCarousel() {
+        const translateX = -(currentIndex * (100 / cardsPerView));
+        container.style.transform = `translateX(${translateX}%)`;
+    }
+    
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) > maxIndex ? 0 : currentIndex + 1;
+        updateCarousel();
+    }
+    
+    function prevSlide() {
+        currentIndex = (currentIndex - 1) < 0 ? maxIndex : currentIndex - 1;
+        updateCarousel();
+    }
+    
+    nextBtn.addEventListener('click', nextSlide);
+    prevBtn.addEventListener('click', prevSlide);
+    
+    // Optional: Auto-advance carousel every 5 seconds
+    setInterval(nextSlide, 5000);
+    
+    // Handle window resize
+    window.addEventListener('resize', function() {
+        updateCarousel();
+    });
+});
+</script>
