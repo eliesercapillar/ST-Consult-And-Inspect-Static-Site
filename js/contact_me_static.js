@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const data = Object.fromEntries(formData.entries());
 
         try {
-            const response = await fetch("https://formspree.io/f/mpwynooa", {
+            const response = await fetch("https://formspree.io/f/mgvnqpng", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data),
